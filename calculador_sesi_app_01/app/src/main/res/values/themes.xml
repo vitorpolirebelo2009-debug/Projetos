@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Calculador_sesi_app_01"
+        parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Cor Principal-->
+        <Item name="colorPrimary">  @color/orion_blue</Item>
+        <Item name="colorPrimaryDark">  @color/orion_blue</Item>
+
+        <!--Status Bar-->
+        <item name="android:statusBarColor">@color/orion_blue</item>
+        <item name="android:navigationBarColor">@color/background</item>
+
+        <!--Icones do status bar claros-->
+        <item name="android:windowLightStatusBar">false</item>
+
+
+    </style>
+
+    <style name="Theme.Calculador_sesi_app_01"
+        parent="Base.Theme.Calculador_sesi_app_01" />
+</resources>
